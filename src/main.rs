@@ -3,7 +3,7 @@
 #[macro_use] extern crate rocket;
 
 #[get("/")]
-fn add() -> &'static' str {
+fn add() -> &'static str {
     "hi, Please enter the any number in url as like (/10) to add-it "
 }
 
